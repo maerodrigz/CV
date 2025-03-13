@@ -1,33 +1,32 @@
 *
 
-
 body {
     
     font-family: 'Arial', sans-serif;
-    background-color: #5c5c88;
+    background-color: #06060c;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
   }
   
   h4 {
-    color: #161a1d;
-    border-bottom: 2px solid #007bff;
+    color: #131414;
+    border-bottom: 2px solid hsl(325, 88%, 20%);
     padding-bottom: 5px;
   }
   
   p {
     margin: 5px 0;
-    color: #555;
+    color: #161212;
   }
   
   .container {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 5px;
   }  
 
   .section {
-    background-color: #9cb7da;
+    background-color: #c790ac;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -43,10 +42,10 @@ body {
   }
   
   .profile-picture img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    border: 3px solid #007bff;
+    border: 3px solid #742663;
     border-radius: 0; 
   }
   ul {
@@ -58,7 +57,7 @@ body {
     margin-bottom: 5px;
   }
   
-  /* Mobile Responsive */
+  
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
@@ -69,3 +68,31 @@ body {
       width: 90%;
     }
   }
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Margin and Padding Example</title>
+  <style>
+    div {
+      background-color: lightblue;
+      padding: 10px;
+      margin: 10px;
+    }
+    p {
+      margin: 0px 0; 
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div>
+    <p>This paragraph has adjusted margin and padding.</p>
+    <p>Notice how the space changes around and inside the element.</p>
+  </div>
+
+</body>
+</html>
