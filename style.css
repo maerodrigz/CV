@@ -26,9 +26,9 @@ body {
   }  
 
   .section {
-    background-color: #c790ac;
+    background-color: #1c93a8;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(248, 101, 101, 0.1);
     padding: 20px;
     width: 45%;
     max-width: 400px;
@@ -45,7 +45,7 @@ body {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #742663;
+    border: 3px solid #751c62;
     border-radius: 0; 
   }
   ul {
